@@ -10,7 +10,7 @@ p {
 }
 
 h1 {
-	font-family: "Fjalla One", sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 50px;
 }
 
@@ -28,6 +28,14 @@ nav {
 	padding: 15px;
 }
 
+.links a {
+	text-decoration: none;
+}
+
+.links b {
+	text-decoration: none;
+}
+
 .logo > img {
 	height: 50px;
 	margin-left: 45px;
@@ -36,6 +44,7 @@ nav {
 .menu {
 	display: flex;
 	padding-right: 20px;
+	margin: 0;
 }
 
 .menu li {
@@ -46,6 +55,7 @@ nav {
 	display: block;
 	padding: 10px;
 	color: #04bced;
+	text-decoration: none;
 }
 
 .menu a:hover {
@@ -116,6 +126,7 @@ header h1 {
 }
 
 .legenda p {
+	text-align: center;
 	font-size: 1.5rem;
 }
 
@@ -203,11 +214,11 @@ section {
 }
 
 .texto02 p {
-	width: 753px;
-	height: 155px;
+	width: 600px;
+	height: 300px;
 	padding-left: 40px;
 	padding-right: 40px;
-	text-align: center;
+	text-align: justify;
 }
 
 .segunda_img {
@@ -326,6 +337,7 @@ footer {
 
 .links p {
 	padding-bottom: 30px;
+	color: #000000;
 }
 
 .links a:hover {
@@ -348,6 +360,7 @@ footer {
 
 .redes_sociais p {
 	padding-bottom: 30px;
+	color: #000000;
 }
 
 .redes_sociais li a {
@@ -430,6 +443,7 @@ footer {
 	width: 100%;
 	display: flex;
 	align-items: center;
+	text-shadow: 4px 4px 5px grey;
 }
 
 .text-relatos {
@@ -571,42 +585,6 @@ footer {
 
 /*Título da página Podcasts*/
 
-.conclusao {
-	width: 100%;
-	height: 1000px;
-}
-
-.texto1 {
-	width: 100%;
-	height: 355px;
-	color: #ffff;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-}
-
-.persona {
-	width: 150px;
-	height: 500px;
-}
-
-.texto-conclusao {
-	width: 1000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.texto-conclusao > h1 {
-	height: 50px;
-	margin-bottom: 30px;
-}
-
-.texto-conclusao > p {
-	border: 2px solid #04bced;
-}
-
 .title-page {
 	padding: 0px;
 	width: 100%;
@@ -630,7 +608,6 @@ footer {
 }
 
 .audio-entrevista-single p {
-	width: 999px;
 	height: 40px;
 	color: #43c3dd;
 	padding-left: 50px;
@@ -648,44 +625,146 @@ footer {
 	background-attachment: fixed;
 }
 
-.nexus {
+.div-section-texto > h2, p {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	color: white;
+}
+
+.div-section-texto > h2 {
+	padding-bottom: 15px;
+}
+
+.div-section-texto {
+	width: 95%;
 	display: flex;
 	flex-direction: column;
-	width: 60%;
-	color: white;
-	height: 300px;
 	align-items: center;
 	justify-content: center;
-	float: left;
 }
 
-.nexus h2 {
-	color: white;
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
-	padding-bottom: 25px;
+.texto-carrossel {
+	background-color: #051b32;
+	width: 100%;
+	height: 665px;
+	display: flex;
 }
 
-.nexus p {
-	width: 878px;
-	height: 175px;
-	padding-left: 40px;
-	padding-right: 40px;
-	text-align: center;
+.section-texto {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.fotos {
+.section-carrossel {
 	width: 40%;
-	padding-right: 200px;
+	height: 665px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.carrossel {
-	height: 750px;
+.div-section-carrossel {
+	width: 75%;
 }
 
-.carousel-item {
-	height: 750px;
+.main-conclusao {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+}
+
+.conclusao {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	border-bottom: 2px solid #04bced;
+}
+
+.img-conclusao {
+    width: 20%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-conclusao {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-conclusao > h2, p {
+	margin: 0;
+	padding: 0;
+	color: white;
+
+}
+
+.texto-conclusao > p {
+	border: 2px solid #04bced;
+	padding: 15px;
+}
+
+.texto-conclusao > h2 {
+	padding-bottom: 15px;
+}
+
+.preenchimento {
+	width: 20%;
+}
+
+.solucoes {
+	width: 100%;
+	height: 400px;
+	display: flex;
+}
+
+.img-solucoes {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.texto-solucoes {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-texto-solucoes {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-texto-solucoes > h2, p {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.box-texto-solucoes > h2 {
+	padding-bottom: 15px;
+}
+
+.box-texto-solucoes > p {
+	border: 2px solid #04bced;
+	padding: 15px;
 }
 
 /* biografia equipe */
@@ -731,14 +810,18 @@ footer {
 	justify-content: center;
 }
 
+.img-perfil > img {
+	width: 350px;
+}
+
 .bio-perfil {
-    width: 500px;
-    height: 475px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: justify;
+	width: 500px;
+	height: 475px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: justify;
 }
 
 .p-ingles {
@@ -746,13 +829,13 @@ footer {
 }
 
 button {
-    width: 110px;
-    height: 35px;
-    color: #000000;
-    border-radius: 50px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
+	width: 110px;
+	height: 35px;
+	color: #000000;
+	border-radius: 50px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
 	margin-top: 30px;
 	transition: 0.5s;
 }

@@ -1,2 +1,2 @@
-# VLK-Tec
-Projeto integrador (PIA). Repositório para atualizações, modificações e backup do site do projeto.
+# VLK-TEC
+VLK TEC (inclusão de pessoas com deficiência visual)
